@@ -12,6 +12,7 @@ pro.iconbitmap(r"C:\Users\Hp\Desktop\project1\sup.ico")
 title=Label(pro , text="Pharmacy System",fg="gold",bg="black",font=('tajawal',16,"bold"))
 title.pack(fill=X)
 
+
 F1=Frame(pro,width=230,height=420,bg="#0B2F3A")
 F1.place(x=570,y=37)
 Title1=Label(F1,text="АПТЕКА 4753",bg="#0B2F3A",fg="white",font=("tajawal",12,"bold"))
@@ -28,15 +29,15 @@ B3=Button(F1,text="ПРО АПТЕКЕ",width=22,fg="black",bg="#DBA901",font=("
 B3.place(x=6,y=225)
 B4=Button(F1,text="СОТРУДНКИ",width=22,fg="black",bg="#DBA901",font=("tajawal",11,"bold"))
 B4.place(x=6,y=272)
-B5=Button(F1,text="ОТДЕЛЬ КАДРОВ",width=22,fg="black",bg="#DBA901",font=("tajawal",11,"bold"))
+B5=Button(F1,text="ОТДЕЛ КАДРОВ",width=22,fg="black",bg="#DBA901",font=("tajawal",11,"bold"))
 B5.place(x=6,y=318)
 B6=Button(F1,text="ВЫХОД",width=22,fg="black",bg="#DBA901",font=("tajawal",11,"bold"))
 B6.place(x=6,y=365)
 
 
-photo=PhotoImage(file="C:\\Users\\Hp\\Desktop\\project1\\pharm.png")
+photo=PhotoImage(file="C:\\Users\\Hp\\Desktop\\project1\\pharm9.png")
 imo=Label(pro,image=photo)
-imo.place(x=160,y=43,height=272)
+imo.place(x=30,y=43,height=272)
 
 F2=Frame(pro,width=570,height=120,bg="#0B2F3A")
 F2.place(x=0,y=330)
@@ -61,6 +62,11 @@ En2.place(x=230,y=71)
 
 B=Button(F2,text="LOG IN",bg="#DBA901",font=("tajawal",12,),width=12,height=3)
 B.place(x=430,y=26)
+
+
+
+
+
 
 
 
